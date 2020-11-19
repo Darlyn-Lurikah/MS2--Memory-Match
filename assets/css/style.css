@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap&family=Lexend+Zetta&display=swap&family=Squada+One&display=swap');
+
+.gradient {
+    height: 100rem;
+  background-color: green;
+  background-image: radial-gradient(to bottom right, #2BE6FF, #FF9960, #8BFF6D, #FF6DF9);
+}
+
+
+.gamefont1 {
+    font-family: Squada One, sans-serif;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FF6DF9;
+}
+
+
+.gamefont2 {
+    font-family: Righteous, sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 124px;
+    letter-spacing: 0.3em;
+    text-align: center;
+    color: #032749;
+}
+
+
+.startbtn {
+    font-family: Righteous, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    text-align: center;
+    color: #032749;
+}

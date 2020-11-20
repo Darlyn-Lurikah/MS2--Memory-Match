@@ -1,40 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap&family=Lexend+Zetta&display=swap&family=Squada+One&display=swap');
 
-.gradient {
-    height: 100rem;
-  background-color: green;
-  background-image: radial-gradient(to bottom right, #2BE6FF, #FF9960, #8BFF6D, #FF6DF9);
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+
+.background1 {
+    background-image: url("../images/Welcome-bg.jpg");
+    padding-left: 0;
+    padding-right: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
-.gamefont1 {
-    font-family: Squada One, sans-serif;
-    font-size: 120px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #FF6DF9;
+/*------------------------------------------------------------LOGO STYLING*/
+
+.logo {
+    margin-left: 35%;
+    padding-top: 25%;
 }
 
 
-.gamefont2 {
+/*--------------------------------------------------HORIZONTAL RULE STYLING*/
+
+.hr1 {
+    border: none;
+    height: 4px;
+    background-color: #032749;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+.hr2 {
+    border: none;
+    height: 2px;
+    background-color: #032749;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/*--------------------------------------------------RULES STYLING*/
+
+.rules-box {
     font-family: Righteous, sans-serif;
-    font-size: 100px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 124px;
-    letter-spacing: 0.3em;
     text-align: center;
     color: #032749;
+    border: #032749 solid 3px;
+    border-radius: 35px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.rules {
+    padding-bottom: 15%;
+    padding-top: 2rem;
+}
+
+.rules-title {
+    margin-bottom: 0;
 }
 
 
+/*--------------------------------------------START BUTTON STYLING*/
 .startbtn {
     font-family: Righteous, sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     font-style: normal;
     text-align: center;
     color: #032749;
+    background-color: #99CC33;
+    border: #032749 solid 3px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+.startbtnbox {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 47%;
+    
 }
